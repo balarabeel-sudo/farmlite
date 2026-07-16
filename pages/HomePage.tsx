@@ -1,18 +1,13 @@
-
 import Navbar from "../components/Navbar";
+import HeroSection from "../components/HeroSection";
+import QuickActions from "../components/QuickActions";
 
 function HomePage() {
   return (
     <>
       <Navbar />
-
-      <main>
-        <h2>Welcome to FarmLite</h2>
-        <p>
-          The global agriculture social networking platform connecting farmers,
-          buyers, companies, investors and experts.
-        </p>
-      </main>
+      <HeroSection />
+      <QuickActions />
     </>
   );
 }
