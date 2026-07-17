@@ -7,7 +7,7 @@ function BottomNavigation() {
         bottom: 0,
         left: 0,
         right: 0,
-        background:  "#ffffff",
+        background: "#ffffff",
         borderTop: "1px solid #e5e7eb",
         display: "flex",
         justifyContent: "space-around",
